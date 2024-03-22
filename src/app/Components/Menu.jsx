@@ -19,7 +19,7 @@ const Menu = () => {
      {/* ===================== MENU SECTION ==================== */}
       <div className="menu-container flex">
         {menuOpen && (
-          <div className="menu-data sm:w-96 w-80 h-screen bg-blue-900 text-[#fff] transition-all duration-300">
+          <div className="menu-data sm:w-96 w-64 h-screen bg-blue-900 text-[#fff] transition-all duration-300">
             <div className="user-data flex flex-row border-b-2 border-gray-500 justify-between cursor-pointer py-4 px-4">
               <div className='user-subdata flex flex-row'>
                 <FaUser className='user-icon sm:text-2xl text-xl mr-2'/>
@@ -28,8 +28,8 @@ const Menu = () => {
               <h1 className='user-bell sm:text-2xl text-xl'><GoBellFill/></h1>
             </div>
             <div className="menu-list flex flex-col mt-4">
-              <ul className="list-data sm:text-xl text-sm">
-                <li className='list py-4 px-4 flex  bg-blue-950 '><MdOutlineMessage className='text-2xl mr-3'/>Disscussion Forum<IoMdArrowDropdown className='ml-28'/></li>
+              <ul className="list-data sm:text-xl text-xs">
+                <li className='list py-4 px-4 flex  bg-blue-950 '><MdOutlineMessage className='text-2xl mr-3'/>Disscussion Forum<IoMdArrowDropdown className='ml-24'/></li>
                 <li className='list py-4 px-4 flex '><RiMoneyDollarCircleFill className='mr-4'/>Market Stories</li>
                 <li className='list py-4 px-12'>Sentiment</li>
                 <li className='list py-4 px-12'>Market</li>
